@@ -9,18 +9,33 @@
 <body>
     <div class="container text-center">
       <div class="row">
-        <div class="col-2" style="background-color: #4D4D50; min-height: 100vh">
-          Column 1
-          <ul class="list-unstyled">
-            <li>Главная</li>
-            <li>Категории</li>
-            <li>Заказы</li>
-            <li>Контакты</li>
-          </ul>
+        <div class="row align-items-end col-2" style="padding-top: 10px;  margin: 0; background-color: #4D4D50; min-height: 100vh">
+          <div class="col align-self-start">
+            <h5 style="padding: 10px 20px; margin: 0; color: white">Меню</h5>
+            <hr style="color: white">
+            <ul class="list-unstyled">
+              <li style="color: white; text-align: left; padding: 5px 20px">Главная</li>
+              <li style="color: white; text-align: left; padding: 5px 20px">Категории</li>
+              <li style="color: white; text-align: left; padding: 5px 20px">Заказы</li>
+              <li style="color: white; text-align: left; padding: 5px 20px">Контакты</li>
+            </ul>
+          </div>
+          <div class="col align-self-end" style="padding-bottom: 20px">
+            <hr style="color: white">
+            <div class="btn-group">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Пользователь
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Профиль</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Выход</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div class="col-10">
-          Column 2
-            <div class="row">
+            <div class="row" style="padding-top: 10px">
                 <h2>Главная</h2>
                 <p style="font-size: 12px; color: grey">Вы находитесь на сайте, предназначенном для продажи товаров</p>
             </div>
@@ -78,5 +93,7 @@
 <button>Button</button>
 <a>Link</a>
 <img src="image.jpeg" /> /-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js">
+</script>
 </body>
 </html>
