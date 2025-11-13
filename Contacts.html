@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="scripts.js"></script>
+</head>
+<body>
+  <div class="container text-center">
+    <div class="row">
+      <div class="row align-items-end col-2" style="padding-top: 10px;  margin: 0; background-color: #4D4D50; min-height: 100vh">
+        <div class="col align-self-start">
+          <h5 style="padding: 10px 20px; margin: 0; color: white">Меню</h5>
+          <hr style="color: white">
+          <ul class="list-unstyled">
+            <li style="color: white; text-align: left; padding: 5px 20px">Главная</li>
+            <li style="color: white; text-align: left; padding: 5px 20px">Категории</li>
+            <li style="color: white; text-align: left; padding: 5px 20px">Заказы</li>
+            <li style="color: white; text-align: left; padding: 5px 20px">Контакты</li>
+          </ul>
+        </div>
+        <div class="col align-self-end" style="padding-bottom: 20px">
+          <hr style="color: white">
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Пользователь
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Профиль</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Выход</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-10">
+        <div class="row" style="padding-top: 70px; margin-bottom: 70px">
+          <h2>Контакты</h2>
+        </div>
+        <div class="row" style="padding: 0px 50px align-items: center; justify-content: space-around">
+          <div class="col-5">
+            <form style="text-align: left;">
+              <div class="mb-3" style="align-items: start">
+                <label for="floatingInputGroup1">Имя</label>
+                <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Почта</label>
+                <div class="input-group mb-3">
+                  <span class="input-group-text">@</span>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Сообщение</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Отправить</button>
+            </form>
+          </div>
+          <div class="col-5" style="text-align: left">
+            <h5>Наши контакты</h5>
+            <p style="font-size: 14px">
+              Lorem ipsum — классический текст-«рыба» (условный, зачастую бессмысленный текст-заполнитель, вставляемый
+              в макет страницы, используемый для образца шрифта и текста, поля размещения на странице). Он служит для
+              того, чтобы показать, как будет выглядеть страница при использовании различных элементов оформления и
+              шрифтов. Благодаря бессмысленности текста, внимание читателя сосредотачивается на внешнем виде и общем
+              восприятии, а не на содержании.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js">
+  </script>
+</body>
+</html>
